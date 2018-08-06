@@ -18,7 +18,7 @@
 1. A felhasználó az app telepítésére kattint a Shoprenter felületén.
 2. A Shoprenter egy iframeban meghívja az app által bíztosított RedirectUri-t.
 A hívás során átadott paraméterek:
-**shopname:** a bolt neve amiből a hívást indították ⋅⋅⋅
+**shopname:** a bolt neve amiből a hívást indították
 **code:** generált hash
 **timestamp:** kérés ideje
 **hmac:** ellenőrző hash

@@ -2,6 +2,8 @@
 /**
  * Example code for Shoprenter App
  * DO NOT USE IN PRODUCTION
+ *
+ * This is the app's entrypoint
  */
 
 $shopname = $_GET['shopname'];

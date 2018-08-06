@@ -2,7 +2,11 @@
 /**
  * Example code for Shoprenter App
  * DO NOT USE IN PRODUCTION
+ *
+ *  This is the app's redirectURi
+ *
  */
+
 $shopname = $_GET['shopname'];
 $code = $_GET['code'];
 $timestamp = $_GET['timestamp'];
