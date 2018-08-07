@@ -1,5 +1,5 @@
 # sr-app
-#Az App integrációhoz szükséges adatok:
+# Az App integrációhoz szükséges adatok:
 
 - **App neve:** ez fog megjelenni a telepíthető alkalmazások listájába. Az app tulaja adja.
 - **AppId:** app azonosítója a ShopRenteren belül. Shoprenter adja.
