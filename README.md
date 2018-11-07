@@ -11,7 +11,7 @@
 
 # App telepítésének menete:
 1. A felhasználó az app telepítésére kattint a Shoprenter felületén.
-2. A Shoprenter egy iframeban meghívja az app által bíztosított RedirectUri-t.
+2. A Shoprenter egy iframeban meghívja az app által bíztosított RedirectUri-t (GET request).
     A hívás során átadott paraméterek:
     - **shopname:** a bolt neve amiből a hívást indították
     - **code:** generált hash
