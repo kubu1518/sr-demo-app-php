@@ -12,6 +12,7 @@
 - Ez egy másik, gec
 - Ez egy másik, gec
 - Ez egy másik, gec
+- Edawdadawdaw
 
 #### 2019.10.24.
 - Elérhető vált a **Payment Mode Resource** API végpont, amellyel kikérhetjük az aktuális bolt **telepített** fizetési módjait. Mivel a rendszer nem támogatja a saját fizetési módok létrehozását, így ez a resource teljesen readOnly. [dokumentáció](https://www.shoprenter.hu/api/doc#payment_mode)
