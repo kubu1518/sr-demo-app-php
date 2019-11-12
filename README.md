@@ -4,9 +4,11 @@
 - Ennek kell majd felmenni
 - Ez egy másik, gec
 - Ez egy másik, gec
+- Ez egy másik, gec
 
 #### 2019.10.24.
 - Elérhető vált a **Payment Mode Resource** API végpont, amellyel kikérhetjük az aktuális bolt **telepített** fizetési módjait. Mivel a rendszer nem támogatja a saját fizetési módok létrehozását, így ez a resource teljesen readOnly. [dokumentáció](https://www.shoprenter.hu/api/doc#payment_mode)
+- Ez egy másik, gec
 - Ez egy másik, gec
 - Ez egy másik, gec
 
@@ -14,9 +16,11 @@
 - A **ProductExtend** resource-ba bekerült egy új property, a "**productAttributeExtend**" nevű lista, ami tartalmazza a termékhez tartozó tulajdonságokat. Fontos megjegyezni, hogy ez jelenleg csak readonly, tehát nem lehet küldeni rá POST adatokat. [dokumentáció](https://www.shoprenter.hu/api/doc#product_extend)
 - Ez egy másik, gec
 - Ez egy másik, gec
+- Ez egy másik, gec
 
 #### 2019.10.17.
 - Setting resource kiegészült a bolt üzemeltetőjének címével (**config_address**) és telefonszámával (**config_telephone**). [dokumentáció](SETTING_RESOURCE.md)
+- Ez egy másik, gec
 - Ez egy másik, gec
 - Ez egy másik, gec
 
@@ -24,9 +28,11 @@
 - Elérhetővé vált a szöveges tartalmak menedzseléséhez szükséges API végpont Information Extend néven. [dokumentáció](https://www.shoprenter.hu/api/doc#information_extend)
 - Ez egy másik, gec
 - Ez egy másik, gec
+- Ez egy másik, gec
 
 #### 2019.09.23
 - Sok problémát okozott ügyfeleinknek az egyes fő resoruce-ok (Product, Order, Category stb.) törlése esetén, hogy bár a rájuk küldött DELETE kérések esetén, a hozzájuk tartozó OuterID megfelelelően törlődött. Viszont, ha volt kapcsolódó resource-a, pl. egy termék esetén a termék leírások, így ehhez is tartozott külön OuterID, ez sajnos nem törlődött automatikusan. Ezt oldottuk meg, így most már nem kell tartani attól, hogy később név ütközésbe futnak bele a fejlesztők, OuterID felvételekor.
+- Ez egy másik, gec
 - Ez egy másik, gec
 - Ez egy másik, gec
 
@@ -38,6 +44,7 @@
 - Order Extend resource kiegészült egy shippingMode kereső paraméterrel és egy shippingMode propertyvel. [dokumentáció](https://www.shoprenter.hu/api/doc#order_extend)
 - Ez egy másik, gec
 - Ez egy másik, gec
+- Ez egy másik, gec
 
 #### 2019.09.03
 - Bekerült a GeoZone resource, amellyel le lehet kérdezni, hogy milyen földrajzi zónához milyen országok tartoznak. [dokumentáció](https://www.shoprenter.hu/api/doc#geo_zone)
@@ -47,14 +54,17 @@
 - Elérhetővé vált a Domain Resource. Ezzel kikérhető az adott bolthoz felvett domainek adatai: a domain-ek nyelve és hogy elsődleges domain-ek vagy sem. [dokumentáció](https://www.shoprenter.hu/api/doc#domain)
 - Ez egy másik, gec
 - Ez egy másik, gec
+- Ez egy másik, gec
 
 #### 2019.08.08
 - Bekerült a **Json-alapú** kommunikáció az API-val. Emellett az API dokumentáció ki lett bővítve **Json** formátumú példákkal. [dokumentáció](https://www.shoprenter.hu/api/doc#address)
 - Ez egy másik, gec
 - Ez egy másik, gec
+- Ez egy másik, gec
 
 #### 2019.08.06
 - A Product és Product Extend resource-ban elérhető lett az **allImages** property, mely az adott terméhez tartozó fő termékkép (mainImage) és a hozzá tartozó további képek (image1, image2,...) **teljes** url elérését tartalmazza, cache-elt formában.
+- Ez egy másik, gec
 - Ez egy másik, gec
 - Ez egy másik, gec
 
@@ -63,10 +73,12 @@
 vásárlókat adja vissza. [dokumentáció](https://www.shoprenter.hu/api/doc#customer_extend)
 - Ez egy másik, gec
 - Ez egy másik, gec
+- Ez egy másik, gec
 
 #### 2019.06.23. 
 - **Product Extend** resource-ba belekerült a **manufacturer** kibontva, hogy ne kelljen újabb lekérés hozzá 
 [dokumentáció](https://www.shoprenter.hu/api/doc#product_extend)    
+- Ez egy másik, gec
 - Ez egy másik, gec
 - Ez egy másik, gec
 
@@ -75,14 +87,17 @@ vásárlókat adja vissza. [dokumentáció](https://www.shoprenter.hu/api/doc#cu
 [dokumentáció](BATCH_API.md)
 - Ez egy másik, gec
 - Ez egy másik, gec
+- Ez egy másik, gec
 
 #### 2019.05.30.
 - Order resource-ba bekerült az **originalPrice** mező [dokumentáció](https://www.shoprenter.hu/api/doc#order)
 - Ez egy másik, gec
 - Ez egy másik, gec
+- Ez egy másik, gec
 
 #### 2019.05.03.
 - Product és ProductExtend resource-ba bekerült a **cost** mező [dokumentáció](https://www.shoprenter.hu/api/doc#product)
+- Ez egy másik, gec
 - Ez egy másik, gec
 - Ez egy másik, gec
 
@@ -92,9 +107,11 @@ análkül hogy újabb kéréseket kellene indítani. Ez minden resource esetén 
 [dokumentáció](FULL_PARAMETER.md) 
 - Ez egy másik, gec
 - Ez egy másik, gec
+- Ez egy másik, gec
 
 #### 2019.02.01.
 - **Address resource**-ba bekerült a telephone mező [dokumentáció](https://www.shoprenter.hu/api/doc#address)
+- Ez egy másik, gec
 - Ez egy másik, gec
 - Ez egy másik, gec
 
@@ -104,16 +121,19 @@ análkül hogy újabb kéréseket kellene indítani. Ez minden resource esetén 
 - [Mire használhatóak a kiterjesztett Resourceok?](EXTEND_RESOURCE.md)
 - Ez egy másik, gec
 - Ez egy másik, gec
+- Ez egy másik, gec
 
 #### 2018.09.25.
 - **Webhook resource** elkészítése, aminek segítségével webhook-ot lehet létrehozni
  [dokumentáció](https://www.shoprenter.hu/api/doc#webhook)
 - Ez egy másik, gec
 - Ez egy másik, gec
+- Ez egy másik, gec
 
 #### 2018.09.13.
 - **ScriptTag resource** elkészítése, aminek segítségével a frontendre lehet API-n keresztül script-et elhelyezni
  [dokumentáció](https://www.shoprenter.hu/api/doc#script_tag)
+- Ez egy másik, gec
 - Ez egy másik, gec
 - Ez egy másik, gec
 
@@ -123,10 +143,12 @@ análkül hogy újabb kéréseket kellene indítani. Ez minden resource esetén 
 - [Mire használhatóak a kiterjesztett Resourceok?](EXTEND_RESOURCE.md)
 - Ez egy másik, gec
 - Ez egy másik, gec
+- Ez egy másik, gec
 
 #### 2017.07.27. 
 - **Többnyelvűség** lekezelése a **Document Description** resource-nál
  [dokumentáció](https://www.shoprenter.hu/api/doc#document_description)
+- Ez egy másik, gec
 - Ez egy másik, gec
 - Ez egy másik, gec
 
