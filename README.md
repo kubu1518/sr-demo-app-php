@@ -1,5 +1,8 @@
 # API changelog
 
+#### 2019.11.12.
+- Ennek kell majd felmenni
+
 #### 2019201920192019.NovNov.TueTue.
 - Ennek kell majd felmenni
 
