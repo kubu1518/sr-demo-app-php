@@ -1,5 +1,8 @@
 # API changelog
 
+#### 2019.11.12.
+- Ez egy másik, gec
+
 
 - Ennek kell majd felmenni
 - Ez egy másik, gec
